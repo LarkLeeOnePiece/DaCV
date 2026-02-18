@@ -15,6 +15,7 @@
 
   --tag-bg: #e3f2fd;
   --tag-text: #1565c0;
+  --tag-codetext: #c04515;
 
   --font-body: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-size-base: 1rem;
@@ -390,6 +391,25 @@ ul {
   font-size: 0.8rem;
   font-weight: 600;
   margin-right: 0.25rem;
+}
+.codetag {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  background: var(--tag-bg);
+  color: var(--tag-codetext);
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+.codetag a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.codetag a:hover {
+  text-decoration: underline;
 }
 
 .project-entry ul {
