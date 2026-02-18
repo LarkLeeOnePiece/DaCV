@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Da Li — Ph.D. student in Computer Science at KAUST. Research in 3D Gaussian splatting, GPU rendering, and CUDA.">
+  <meta name="author" content="Da Li">
+
+  <meta property="og:title" content="Da Li — KAUST">
+  <meta property="og:description" content="Ph.D. student researching 3D Gaussian splatting, GPU rendering, and CUDA.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://larkleeonepiece.github.io">
+
+  <title>Da Li | KAUST</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Navigation ===== -->
+<nav id="navbar" class="navbar">
+  <div class="nav-container">
+    <a href="#about" class="nav-logo">Da Li</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="hamburger"></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== Hero / About ===== -->
+<header id="about" class="section hero">
+  <div class="container hero-grid">
+    <div class="hero-photo">
+      <!-- Replace with actual photo: <img src="assets/photo.jpg" alt="Da Li" width="200" height="200"> -->
+      <img src="assets/googlescholar.jpg" alt="Da Li" width="200" height="200">
+    </div>
+    <div class="hero-text">
+      <h1>Da Li</h1>
+      <p class="subtitle">Ph.D. Student, Computer Science</p>
+      <p class="affiliation">
+        <a href="https://cemse.kaust.edu.sa/profiles/da-li">King Abdullah University of Science and Technology (KAUST)</a>
+      </p>
+      <p class="bio">
+        Ph.D. student in Computer Graphics and Computer Vision focusing on
+        3D Gaussian splatting and 3D reconstruction, with emphasis on GPU
+        rendering systems. Experienced in custom CUDA kernels, hybrid
+        rasterization–ray-tracing modules, and performance-aware implementations.
+      </p>
+      <ul class="contact-links">
+        <li><a href="mailto:da.li@kaust.edu.sa">Email</a></li>
+
+        <li><a href="https://scholar.google.com/citations?hl=en&user=mi3mSIUAAAAJ">Google Scholar</a></li>
+        <li><a href="https://github.com/LarkLeeOnePiece">GitHub</a></li>
+        <li><a href="main.pdf">CV (PDF)</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Education ===== -->
+<section id="education" class="section section-alt">
+  <div class="container">
+    <h2>Education</h2>
+    <div class="entry" style="margin-bottom: 1.25rem;">
+      <div class="entry-header">
+        <h3>Ph.D., Computer Science</h3>
+        <span class="entry-date">2025 – Present</span>
+      </div>
+      <p>King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia</p>
+    </div>
+    <div class="entry" style="margin-bottom: 1.25rem;">
+      <div class="entry-header">
+        <h3>M.S., Computer Science</h3>
+        <span class="entry-date">2023 – 2025</span>
+      </div>
+      <p>King Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia</p>
+    </div>
+    <div class="entry">
+      <div class="entry-header">
+        <h3>B.S., Network Engineering</h3>
+        <span class="entry-date">2019 – 2023</span>
+      </div>
+      <p>University of Electronic Science and Technology of China (UESTC), Chengdu, China</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Research ===== -->
+<section id="research" class="section">
+  <div class="container">
+    <h2>Research</h2>
+    <div class="research-areas">
+      <div class="research-area">
+        <h3>Gaussian Splatting &amp; Neural Rendering</h3>
+        <p>Clipping, hybrid rasterizer–ray-tracer pipelines, reconstruction.</p>
+      </div>
+      <div class="research-area">
+        <h3>Strand-level Hair Reconstruction</h3>
+        <p>Monocular video, implicit–explicit representations.</p>
+      </div>
+      <div class="research-area">
+        <h3>GPU Parallel Computing &amp; Rendering</h3>
+        <p>Kernel design, memory layout, scalable GPU algorithms.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Publications ===== -->
+<section id="publications" class="section section-alt">
+  <div class="container">
+    <h2>Publications</h2>
+
+    <div class="pub-entry">
+      <h3 class="pub-title">
+        <!-- TODO: Replace # with actual DOI/ACM DL link for the SIGGRAPH Asia paper -->
+        <a href="https://dl.acm.org/doi/full/10.1145/3757377.3763982">RaRa Clipper: A Clipper for Gaussian Splatting Based on Ray Tracer and Rasterizer</a>
+      </h3>
+      <p class="pub-authors">
+        <strong>Li, D.</strong>, Jia, D., Rajeh, Y., Engel, D., &amp; Viola, I.
+      </p>
+      <p class="pub-venue">
+        SIGGRAPH Asia 2025 Conference Papers
+        <span class="badge badge-published">Published</span>
+      </p>
+      <p class="pub-contribution">
+        Hybrid rasterizer–ray-tracer clipping module integrated into Gaussian splatting renderers.
+      </p>
+    </div>
+
+    <div class="pub-entry">
+      <h3 class="pub-title">
+        <a href="https://arxiv.org/abs/2506.21632">SkinningGS: Editable Dynamic Human Scene Reconstruction Using Gaussian Splatting Based on a Skinning Model</a>
+      </h3>
+      <p class="pub-authors">
+        <strong>Li, D.</strong>, Jia, D., Hadwiger, M., &amp; Viola, I.
+      </p>
+      <p class="pub-venue">
+        arXiv 2506.21632
+        <span class="badge badge-arxiv">arXiv</span>
+      </p>
+      <p class="pub-contribution">
+        Dynamic Gaussian representation with skinning-driven deformation and full training pipeline.
+      </p>
+    </div>
+
+    <div class="pub-entry">
+      <h3 class="pub-title">
+        EfficientMonoHair: Fast Strand-Level Reconstruction from Monocular Video via Multi-View Direction Fusion
+      </h3>
+      <p class="pub-authors">
+        <strong>Li, D.</strong>, Engel, D., Luo, D., &amp; Viola, I.
+      </p>
+      <p class="pub-venue">
+        <span class="badge badge-review">Under Review</span>
+      </p>
+      <p class="pub-contribution">
+        Multi-view direction fusion modules with optimized reconstruction pipeline.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Projects ===== -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+
+    <div class="project-entry">
+      <div class="project-header">
+        <h3>Efficient and Visually Consistent Gaussian Splitting (EVS) Reproduction</h3>
+        <span class="project-date">Dec 2025 – Jan 2026</span>
+      </div>
+      <div class="project-tags">
+        <span class="tag">CUDA</span>
+        <span class="tag">3DGS</span>
+      </div>
+      <ul>
+        <li>Reproduced EVS algorithm for high-quality Gaussian splatting.</li>
+        <li>Implemented adaptive splitting CUDA kernels and visibility-aware rasterization.</li>
+        <li>Designed modular pipeline for multi-pass strategies.</li>
+      </ul>
+    </div>
+
+    <div class="project-entry">
+      <div class="project-header">
+        <h3>DDVR Reproduction with PyCUDA</h3>
+        <span class="project-date">Feb 2025 – May 2025</span>
+      </div>
+      <div class="project-tags">
+        <span class="tag">CUDA</span>
+        <span class="tag">DDVR</span>
+      </div>
+      <ul>
+        <li>Reimplemented differentiable volume rendering pipeline.</li>
+        <li>Implemented ray marching and backward passes.</li>
+        <li>Built validation and profiling harness.</li>
+      </ul>
+    </div>
+
+    <div class="project-entry">
+      <div class="project-header">
+        <h3>GPU-based Physical Simulation</h3>
+        <span class="project-date">Aug 2024 – Dec 2024</span>
+      </div>
+      <div class="project-tags">
+        <span class="tag">CUDA</span>
+        <span class="tag">OpenGL</span>
+      </div>
+      <ul>
+        <li>Built CUDA particle simulation with collision handling.</li>
+        <li>Integrated OpenGL viewer and optimized CPU–GPU synchronization.</li>
+      </ul>
+    </div>
+
+    <div class="project-entry">
+      <div class="project-header">
+        <h3>Ray Tracing and Rasterization Pipeline</h3>
+        <span class="project-date">Aug 2023 – Dec 2023</span>
+      </div>
+      <div class="project-tags">
+        <span class="tag">C++</span>
+      </div>
+      <ul>
+        <li>Implemented CPU rasterization and ray tracing system.</li>
+        <li>Built modular architecture with shading and reflection.</li>
+      </ul>
+    </div>
+
+    <div class="project-entry">
+      <div class="project-header">
+        <h3>VolWeb: WebGPU-based Tomography Reconstruction</h3>
+        <span class="project-date">Sep 2022 – May 2023</span>
+      </div>
+      <div class="project-tags">
+        <span class="tag">WebGPU</span>
+      </div>
+      <ul>
+        <li>Ported SART tomography to WebGPU compute shaders.</li>
+        <li>Optimized GPU memory layout and workgroup scheduling.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Teaching ===== -->
+<section id="teaching" class="section section-alt">
+  <div class="container">
+    <h2>Teaching</h2>
+    <div class="entry">
+      <div class="entry-header">
+        <h3>Teaching Assistant, Machine Learning &amp; Computer Graphics</h3>
+        <span class="entry-date">2024 – 2025</span>
+      </div>
+      <p>Discussion sessions, labs, grading.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Awards & Service ===== -->
+<section id="awards" class="section">
+  <div class="container">
+    <h2>Awards &amp; Honors</h2>
+    <ul class="awards-list">
+      <li>
+        <span class="award-name">Sichuan Province Outstanding Graduate</span>
+        <span class="award-year">2023</span>
+      </li>
+      <li>
+        <span class="award-name">Intel Cup National First Prize</span>
+        <span class="award-year">2022</span>
+      </li>
+      <li>
+        <span class="award-name">Chinese National Scholarship</span>
+        <span class="award-year">2022</span>
+      </li>
+      <li>
+        <span class="award-name">National Embedded Competition Second Prize</span>
+        <span class="award-year">2021</span>
+      </li>
+    </ul>
+
+    <div class="service-section">
+      <h2>Service</h2>
+      <p>Reviewer, IEEE Transactions on Visualization and Computer Graphics (TVCG)</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer / Contact ===== -->
+<footer id="contact" class="footer">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>
+      <a href="mailto:da.li@kaust.edu.sa">da.li@kaust.edu.sa</a> &middot;
+      Thuwal, Saudi Arabia
+    </p>
+    <p class="footer-links">
+      <a href="https://cemse.kaust.edu.sa/profiles/da-li">KAUST Profile</a> &middot;
+      <!-- TODO: Replace # with actual Google Scholar profile URL -->
+      <a href="#">Google Scholar</a> &middot;
+      <a href="https://github.com/LarkLeeOnePiece">GitHub</a>
+    </p>
+    <p class="copyright">&copy; 2025 Da Li</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
