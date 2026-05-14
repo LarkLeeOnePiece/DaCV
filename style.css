@@ -328,6 +328,26 @@ ul {
   margin-top: 0.25rem;
 }
 
+.pub-links {
+  margin-top: 0.4rem;
+}
+
+.pub-links a {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  background: var(--tag-bg);
+  color: var(--tag-codetext);
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-right: 0.25rem;
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+}
+
 .badge {
   display: inline-block;
   padding: 0.15rem 0.5rem;
